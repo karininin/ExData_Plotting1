@@ -11,4 +11,4 @@ plotdata$datetime<-strptime(plotdata$datetime,"%Y-%m-%d %H:%M:%S") #convert that
 
 png(filename="plot1.png")
 hist(plotdata$Global_active_power,col="red",main="Global Active Power",xlab="Global Active Power (kilowatts)") #create histogram
-dev.off
+dev.off()
